@@ -17,9 +17,11 @@ def check_temperature(temp_str):
 
 def main():
     temp = input("Testing temperature: ")
-    resultado = check_temperature(temp)
-    if resultado is not None:
-        print(f"Valid temperature returned: {resultado}")
+    result = check_temperature(temp)
+    print("=== Garden Temperature Checker ===")
+    print("")
+    if result is not None:
+        print(f"Valid temperature returned: {result}")
 
 
 if __name__ == "__main__":
